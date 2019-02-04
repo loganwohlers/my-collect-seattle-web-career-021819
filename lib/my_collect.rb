@@ -1,9 +1,10 @@
 def my_collect(a)
     i=0
+    b=[]
     while i<a.length
-      yield a[i]
+      b.push(yield a[i])
       i=i+1
     end
-    a
+    b
 end
 
