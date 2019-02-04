@@ -4,5 +4,6 @@ def my_collect(a)
       yield a[i]
       i=i+1
     end
+    a
 end
 
